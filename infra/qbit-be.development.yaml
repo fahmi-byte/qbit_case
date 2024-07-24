@@ -1,0 +1,26 @@
+server:
+  base-url: localhost
+  port: 3000
+
+jwt:
+  token:
+    expires-ttl: 90
+    secret: "5Lm25V3Qd7aut8dr4QUxm5PZUrSFs"
+
+postgresql:
+  host: localhost
+  port: 5432
+  driver: postgres
+  db: qbit_db
+  username: postgres
+  password: 123
+  ssl-mode: disable
+  max-idle-connections: 10
+  max-open-connections: 20
+  connection-max-life-time: 60
+  connection-max-idle-time: 10
+  debug: false
+
+payment:
+  api-key: "f5ef6510b478a75916de39e5169ca054"
+  merchant-code: "DS19756"
